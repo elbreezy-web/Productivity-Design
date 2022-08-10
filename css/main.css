@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+.wrapper .side-nav {
+  width: 110px;
+  border-right: 2px solid #ebf1f5;
+}
+.wrapper .side-nav .logo {
+  margin-bottom: 5em;
+  padding: 2em 0;
+}
+.wrapper .side-nav .logo img {
+  height: 4em;
+  margin: 0 auto;
+}
+.wrapper .side-nav .menu ul li {
+  margin-bottom: 3.6em;
+}
+.wrapper .side-nav .menu ul li a {
+  display: block;
+  position: relative;
+}
+.wrapper .side-nav .menu ul li a img {
+  height: 1.7em;
+  margin: 0 auto;
+  filter: grayscale(1);
+}
+.wrapper .side-nav .menu ul li a .stroke {
+  height: 1.7em;
+  width: 3px;
+  border-radius: 6px;
+  background-color: #01565b;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  display: none;
+}
+.wrapper .side-nav .menu ul li a .stroke .half {
+  display: block;
+  height: 50%;
+  width: inherit;
+  background-color: #5aba8a;
+  position: absolute;
+  bottom: 0;
+}
+.wrapper .side-nav .menu ul li.active a img {
+  filter: grayscale(0);
+}
+.wrapper .side-nav .menu ul li.active a .stroke {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

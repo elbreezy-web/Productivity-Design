@@ -1,0 +1,22 @@
+{
+  "name": "productivitydesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "watch-sass": "sass -w css/main.scss css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "vite": "^3.0.2"
+  }
+}
