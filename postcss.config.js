@@ -11,3 +11,7 @@ module.exports = {
     require("autoprefixer")
   ],
 }
+
+module.exports = {
+  autoprefixer: {}
+}
